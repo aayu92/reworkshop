@@ -1,0 +1,428 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.header {
+    background: #6c9d5c;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    margin: 0 0 20px;
+}
+
+.about, .products, .menu {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+
+
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 80px; /* Adjust the width as needed */
+    height: auto;
+    border-radius: 50%; /* Optional for a rounded logo */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+/* Top Navigation */
+.top-nav {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+.nav-menu li {
+    display: inline;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-menu a:hover {
+    background-color: #6c9d5c;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Header Updates */
+.header {
+    padding-top: 20px; /* Extra space for navigation */
+}
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Makes it responsive for smaller screens */
+    text-align: left; /* Aligns text properly */
+}
+
+.about-text {
+    flex: 1; /* Takes up equal space */
+}
+
+.about-image {
+    flex: 1; /* Takes up equal space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .modal-content {
+    border-radius: 5px;
+  }
+  /* Login Page Styling */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+}
+
+.login-form {
+    width: 100%;
+    max-width: 400px;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-group input:focus {
+    border-color: #6c9d5c;
+    outline: none;
+    box-shadow: 0 0 4px rgba(108, 157, 92, 0.5);
+}
+
+.btn-login {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #6c9d5c;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-login:hover {
+    background-color: #588747;
+}
+
+.register-link {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+}
+
+.register-link a {
+    color: #6c9d5c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+/* Footer Section */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.shop-details, .social-links {
+    flex: 1;
+    min-width: 200px;
+}
+
+.shop-details h3, .social-links h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #6c9d5c;
+}
+
+.shop-details p, .social-links a {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #ddd;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #6c9d5c;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: white;
+}
+
+.footer p {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #bbb;
+}
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Apply fade-in to sections */
+.container, .menu-item, .product {
+    animation: fadeIn 1s ease-out;
+    animation-delay: 0.2s;
+    animation-fill-mode: backwards;
+}
+
+/* Staggered effect for grid items */
+.product, .menu-item {
+    animation-duration: 0.8s;
+}
+/* Button hover animation */
+.btn-submit, .btn-login {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-submit::after, .btn-login::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    z-index: 1;
+    transition: left 0.4s ease;
+}
+
+.btn-submit:hover::after, .btn-login:hover::after {
+    left: 100%;
+}
+/* Image hover scale */
+.item-image {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.item-image:hover {
+    transform: scale(1.1); /* Slight zoom effect */
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Order Section */
+.order {
+    padding: 50px 20px;
+    background-color: #6c9d5c;
+    color: white;
+    text-align: center;
+}
+
+.order h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.order p {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.btn-order {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: #6c9d5c;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-order:hover {
+    background-color: #c1d1bc;
+    color: white;
+}
+/* Product Grid Styling */
+.product-grid, .menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.product, .menu-item {
+    text-align: center;
+}
+
+.product h3, .menu-item h3 {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+/* Shared Grid Styling for Products and Cafe Items */
+.product-grid, .menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.product, .menu-item {
+    text-align: center;
+}
+
+.product h3, .menu-item h3 {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Uniform Image Styling for Both Sections */
+.item-image {
+    width: 150px; /* Set the desired width */
+    height: 150px; /* Set the desired height */
+    object-fit: cover; /* Ensures the image fills the area without distortion */
+    border-radius: 10px; /* Optional: rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.item-image:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+/* Hidden by default */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+/* Image Zoom Overlay */
+.image-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.image-overlay img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.close-overlay {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
